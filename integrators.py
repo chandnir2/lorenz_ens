@@ -1,4 +1,3 @@
-# integrators.py — SOLUTION
 """Numerical integration methods for ODE systems."""
 import numpy as np
 

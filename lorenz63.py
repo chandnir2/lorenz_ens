@@ -1,10 +1,6 @@
-# lorenz63.py — SOLUTION
 """Lorenz 1963 three-variable chaotic model."""
 import numpy as np
-try:
-    from solutions.integrators import integrate      # from outside: python -m solutions.run_lorenz_ensemble
-except ImportError:
-    from integrators import integrate                # from inside:  cd solutions && python run_lorenz_ensemble.py
+from .integrators import integrate
 
 
 class Lorenz63:

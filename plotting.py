@@ -1,4 +1,3 @@
-# plotting.py — SOLUTION
 """Plotting utilities for Lorenz63 ensemble experiments."""
 import numpy as np
 import matplotlib.pyplot as plt

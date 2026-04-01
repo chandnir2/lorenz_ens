@@ -1,34 +1,12 @@
-# run_lorenz_ensemble.py — SOLUTION
 """
 Driver script: Lorenz63 Ensemble Predictability Experiment
-==========================================================
 
-Produces a 3-panel figure showing how predictability
-depends on where you start on the Lorenz attractor.
-
-Each panel shows:
-  - The full attractor (light blue background)
-  - An ensemble of trajectories (red) started from a small cloud
-    of initial conditions near a chosen point
-
-The three starting regions are:
-  (a) Deep left lobe  — ring barely grows (highly predictable)
-  (b) High left lobe  — ring distorts into banana/boomerang (transition zone)
-  (c) Saddle region   — ring explodes, members go left and right (no predictability)
-
-Output: saves 'lorenz_ensemble_predictability.png'
-
-Usage
------
-    cd solutions/ && python run_lorenz_ensemble.py
+Produces a 3-panel figure showing how predictability depends on where
+you start on the Lorenz attractor. Saves lorenz_ensemble_predictability.png.
 """
 import numpy as np
-try:
-    from solutions.lorenz63 import Lorenz63          # from outside: python -m solutions.run_lorenz_ensemble
-    from solutions.plotting import plot_ensemble_panels
-except ImportError:
-    from lorenz63 import Lorenz63                    # from inside:  cd solutions && python run_lorenz_ensemble.py
-    from plotting import plot_ensemble_panels
+from .lorenz63 import Lorenz63
+from .plotting import plot_ensemble_panels
 
 # --- Configuration ---
 DT = 0.01
