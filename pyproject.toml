@@ -21,4 +21,4 @@ dependencies = [
 dev = ["build", "twine"]
 
 [project.scripts]
-run-lorenz = "lorenz_project.run_lorenz_ensemble:main"
+run-lorenz = "lorenz_ens.run_lorenz_ensemble:main"
