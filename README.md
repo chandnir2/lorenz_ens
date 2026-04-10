@@ -11,7 +11,7 @@ python run.py
 ```
 Both generate `lorenz_ensemble_predictability.png`.
 
-After packaging (lab exercise):
+After packaging:
 
 ```bash
 pip install -e .
@@ -27,8 +27,8 @@ pip install lorenz-project
 Or from source:
 
 ```bash
-git clone https://github.com/chra6227/lorenz-project.git
-cd lorenz-project
+git clone https://github.com/chandnir2/lorenz_ens
+cd lorenz_ens
 pip install -e .
 ```
 
@@ -44,7 +44,7 @@ trajectory = model.run([1, 1, 1], dt=0.01, n_steps=5000)
 ## Command Line
 
 ```bash
-run-lorenz    # generates lorenz_ensemble.png
+run-lorenz    # generates lorenz_ensemble_predictability.png
 ```
 
 ## Files
