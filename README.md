@@ -27,7 +27,7 @@ pip install lorenz-project
 Or from source:
 
 ```bash
-git clone https://github.com/chandnir2/lorenz_ens
+git clone https://github.com/chandnir2/lorenz_ens.git
 cd lorenz_ens
 pip install -e .
 ```
