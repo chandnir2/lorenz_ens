@@ -21,7 +21,7 @@ run-lorenz
 ## Installation
 
 ```bash
-pip install lorenz-project
+pip install lorenz-project-chra6227
 ```
 
 Or from source:
